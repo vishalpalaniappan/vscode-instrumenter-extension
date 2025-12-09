@@ -11,7 +11,7 @@ This PR contains a VS Code extension that automates dynamic trace instrumentatio
 - Provide an interface to run the instrumented program in one step for simplicity.
 - Serve [trace viewer][trace-viewer] and open generated trace file for immediate automated debugging.
 - Alternatively, bring trace viewer into VSCode environment (but this is not necessary right now).
-- Provide an interface to generate a file that intergrates into production pipelines. 
+- Provide an interface to generate a file that integrates into production pipelines.
 - Provide a visual overview of the semantic design graph.
 - More to come. 
 
