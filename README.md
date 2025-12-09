@@ -1,2 +1,2 @@
-# vscode-extensions-instrumenter
-This PR introduces a VS Code extension that automates dynamic trace instrumentation and assists with capturing the semantic relationships between design abstractions to enable automated debugging.
+# vscode-instrumenter-extension
+This PR introduces a VS Code extension that automates dynamic trace instrumentation of a python program and assists with capturing the semantic relationships between design abstractions to enable automated debugging.
