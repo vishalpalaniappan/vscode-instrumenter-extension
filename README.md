@@ -1,15 +1,17 @@
 # trace-design-instrumenter README
 
-This PR contains a VS Code extension that automates dynamic trace instrumentation and assists with capturing the semantic relationships between design abstractions to enable automated debugging.
+This repo contains a VS Code extension that automates dynamic trace instrumentation and assists with capturing the semantic relationships between design abstractions to enable automated debugging.
 
 ## Features
 
+### Basic features:
 - Automatically instrument the dynamic trace. 
 - Provide interface for instrumenting design semantics (constraints, failure modalities).
-- Generate files which describe the project structure for individual programs and systems.
+- Provide an interface to instrument and run program in one step for ease of use.
+- Serve [trace viewer][trace-viewer] and open generated trace file for automated debugging.
+
+### Future Features
 - Intelligent modifications to instrumentation when code changes are introduced.
-- Provide an interface to run the instrumented program in one step for simplicity.
-- Serve [trace viewer][trace-viewer] and open generated trace file for immediate automated debugging.
 - Alternatively, bring trace viewer into VSCode environment (but this is not necessary right now).
 - Provide an interface to generate a file that integrates into production pipelines.
 - Provide a visual overview of the semantic design graph.
